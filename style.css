@@ -13,7 +13,7 @@ body {
 .details img {
   width: 100%;
 }
-.more-inf {
+.details__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -34,7 +34,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.new-task__input-wrapper {
   display: flex;
 }
 ul {
@@ -61,8 +61,7 @@ button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-.new-task {
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -88,7 +87,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-.new-task {
+.new-task__title {
   display: block;
   margin: 0 0 20px;
 }

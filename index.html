@@ -13,12 +13,13 @@
 <body>
   <header class="details">
     <img src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix Schema">
-    <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="details__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
   <main class="main">
-    <section id="adding-section">
-      <h3 class="new-task">Add Item</h3>
-      <div class="task-row-wrapper">
+
+    <section class="new-task" id="adding-section">
+      <h3 class="new-task__title section-title">Add Item</h3>
+      <div class="new-task__input-wrapper">
         <input id="new-task" 
             class="task" 
             type="text">
@@ -27,8 +28,8 @@
     </section>
     
     <section class="incompleted">
-      <h3>Todo</h3>
-      <ul id="incompleted">
+      <h3 class="incompleted__title section-title">Todo</h3>
+      <ul class="incompleted__list" id="incompleted">
         <li>
           <input type="checkbox">
           <label class="task">Pay Bills</label>
@@ -53,8 +54,8 @@
     </section>
 
     <section class="completed">
-      <h3>Completed</h3>
-      <ul id="completed">
+      <h3 class="completed__title section-title">Completed</h3>
+      <ul class="completed__list" id="completed">
         <li>
           <input type="checkbox" checked>
           <label class="task">See the Doctor</label>
@@ -66,6 +67,7 @@
         </li>
       </ul>
     </section>
+    
   </main>
 
   <script src="app.js"></script>
